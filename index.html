@@ -5,11 +5,34 @@ title: Home
 
 {% if page.url == "/" %}
 
+
+<section class="welcome">
+    <div class="section-title">
+        <h2><span>Welcome!</span></h2>
+    </div>
+    <div class="row">
+        Welcome to a developing home for our research group!  We love to tackle problems in medical imaging using engineering-driven approaches to improve human health.   Our work mostly focuses on MRI (although we dabble in CT and PET) and at or near the stage of human studies.
+
+        We work on a range of projects, taking on new ones opportunistically, and this currently includes
+         Metabolic MRI with hyperpolarized contrast agents, 
+        Simultaneous PET/MR imaging systems, 
+        Lung MRI, 
+        Myelin MRI, 
+        Radiation treatment planning, and 
+        Prostate and kidney cancer prediction using deep learning.
+
+        This website is very much in a beta phase, please also visit our <a target="_blank" class="nav-link" href="https://radiology.ucsf.edu/research/labs/larson"> UCSF Group Website</a> for more information. 
+
+
+
+    </div>
+</section>
+
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>Featured</span></h2>
+        <h2><span>Featured Posts</span></h2>
     </div>
     <div class="row">
 
@@ -28,8 +51,21 @@ title: Home
 
 {% endif %}
 
+<!-- Twitter -->
+<section class="news">
+    <div class="section-title">
+        <h2><span>News</span></h2>
+    </div>
+    <div class="row">
+        {% twitter https://twitter.com/pezlarson/timelines/669379340153450496 maxwidth=500 limit=5 %}
+
+    </div>
+</section>
+
+
+
 <!-- Posts Index
-================================================== -->
+================================================== 
 <section class="recent-posts">
 
     <div class="section-title">
@@ -49,13 +85,14 @@ title: Home
     </div>
 
 </section>
+-->
 
 <!-- Pagination
-================================================== -->
+================================================== 
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
     {% include pagination.html %}
 </span>
 </div>
-
+-->
