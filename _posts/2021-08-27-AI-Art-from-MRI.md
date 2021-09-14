@@ -4,7 +4,7 @@ title:  "AI-generated Art and MRI"
 author: peder
 categories: [ fun ]
 image: assets/images/HPBrain_MRI-Spaceship-7.png
-featured:true
+featured: true
 ---
 I recently went off on an exploration of generating images and art using AI, specifically generative adversarial networks (GANs).  This was first inspired by a twitter feed, https://twitter.com/images_ai?lang=en, where they provide a nice Google Colab notebook.
 
