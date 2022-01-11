@@ -3,7 +3,7 @@ layout: post
 title:  "Learning MRI (with lectures too)"
 author: peder
 categories: [ education ]
-image: assets/images/Net_Magnetization_and_Spins.jpg
+image: assets/images/MRI-Introduction.png
 featured: true
 ---
 I just completed teaching the course UCSF Biomedical Imaging 201: "Principles of MRI" for the 11th time, and figured it would be a great opportunity to share some of my experiences and materials.  If you just want the answers (TLDR), you can check out my lectures and some of the course materials
@@ -56,7 +56,7 @@ There are great resources available to go beyond the principles of MRI material.
 
 * [Stanford Electrical Engineering 469B: RF Pulse Design for MRI](https://web.stanford.edu/class/ee369c/index.html) , which goes into more detail on RF pulse design
 
-* [**Handbook of MRI Pulses Sequences by Bernstein, King, Zhou](https://doi.org/10.1016/B978-0-12-092861-3.X5000-6). Essential textbook for advanced MRI work.
+* [Handbook of MRI Pulses Sequences by Bernstein, King, Zhou](https://doi.org/10.1016/B978-0-12-092861-3.X5000-6). Essential textbook for advanced MRI work.
 
 <!-- 
 {% include youtube.html id='1Ku6-uXw7Ag' %}
