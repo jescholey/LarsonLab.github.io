@@ -21,6 +21,14 @@ authors:
     twitter: https://twitter.com/pezlarson
     description: "Fearless Leader"
 
+  jess:
+    name: Jess Scholey
+    display_name: Jess Scholey
+    email: jessica.scholey@ucsf.edu
+    web: https://profiles.ucsf.edu/jessica.scholey
+    git_name: jescholey
+    twitter: https://twitter.com/jescholey
+
 # Plugins
 plugins:
   - jekyll-paginate
