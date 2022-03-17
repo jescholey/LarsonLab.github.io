@@ -3,7 +3,7 @@ layout: post
 title:  "AI-generated Art and MRI"
 author: peder
 categories: [ fun ]
-image: assets/images/HPBrain_MRI-Spaceship-7.png
+image: assets/images/HPBrain_MRI-Spaceship.jpg
 featured: true
 ---
 I recently went off on an exploration of generating images and art using AI, specifically generative adversarial networks (GANs).  This was first inspired by a twitter feed, https://twitter.com/images_ai?lang=en, where they provide a nice Google Colab notebook.
@@ -18,9 +18,9 @@ So I began playing around with the CoLab notebook, here's a few fun explorations
 
 In these examples, I used a random image seed, with the prompt "MRI Spaceship".  The difference is based on the image training data (Wikiart versus ImageNet)
 
-![MRI spaceship](../assets/images/MRI-spaceship-1.png)
+![MRI spaceship](../assets/images/MRI-spaceship-1.jpg)
 
-![MRI spaceship](../assets/images/MRI-spaceship-2.png)
+![MRI spaceship](../assets/images/MRI-spaceship-2.jpg)
 
 ## Seeding with MRIs - Hyperpolarized Brain
 
@@ -36,12 +36,14 @@ And the prompt "MRI Spaceship".  The image evolved as
 ![Hyperpolarized 13C Brain MRI Spaceship 4](../assets/images/HPBrain_MRI-Spaceship-4.png)
 ![Hyperpolarized 13C Brain MRI Spaceship 5](../assets/images/HPBrain_MRI-Spaceship-5.png)
 ![Hyperpolarized 13C Brain MRI Spaceship 6](../assets/images/HPBrain_MRI-Spaceship-6.png)
-![Hyperpolarized 13C Brain MRI Spaceship 7](../assets/images/HPBrain_MRI-Spaceship-7.png)
+![Hyperpolarized 13C Brain MRI Spaceship 7](../assets/images/HPBrain_MRI-Spaceship.jpg)
+
+![Hyperpolarized 13C Brain MRI Spaceship animation](../assets/images/HPBrain_MRI-Spaceship.gif)
 
 
-I also tried with a prompt of something like "Moon | Volcano", but using WikiArt training:
+I also tried with a prompt of something like "Moon Volcano", but using WikiArt training:
 
-![Hyperpolarized 13C Brain Volcano Moon](../assets/images/HPBrain_volcano-moon.png)
+![Hyperpolarized 13C Brain Volcano Moon](../assets/images/HPBrain_volcano-moon.jpg)
 
 ## Seeding with MRIs - Prostate Diffusion
 
@@ -59,8 +61,8 @@ This was getting fun, so I started with this seed image of a prostate diffusion 
 
 **"Moon Carrot"**
 
-![Moon Carrot](../assets/images/prostateDWI_moon-carrot-wikiart.png)
+![Moon Carrot](../assets/images/prostateDWI_moon-carrot-wikiart.jpg)
 
 **"Vegetables Under the Moon"**
 
-![Vegetables under the moon](../assets/images/prostateDWI_Vegetables-under-the-moon.png)
+![Vegetables under the moon](../assets/images/prostateDWI_Vegetables-under-the-moon.jpg)
